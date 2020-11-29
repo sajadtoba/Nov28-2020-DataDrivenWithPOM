@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 3, Errors: 0, Skipped: 33, Time elapsed: 37.724 s <<< FAILURE! - in TestSuite
+setUp(testCases.TestHomePage)  Time elapsed: 23.025 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
+  (Session info: chrome=87.0.4280.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'abcs-MBP', ip: 'fe80:0:0:0:876:28d0:5ce6:d02%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/5w/mkcmv9wd2n9...}, goog:chromeOptions: {debuggerAddress: localhost:54247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6adf4ee745e4e441f12d0f4801c1c3d7
+*** Element info: {Using=name, value=email}
+	at testCases.TestHomePage.setUp(TestHomePage.java:26)
+
+setUp(testCases.TestContactsPages)  Time elapsed: 1.725 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: element has zero size
+  (Session info: chrome=87.0.4280.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'abcs-MBP', ip: 'fe80:0:0:0:876:28d0:5ce6:d02%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/5w/mkcmv9wd2n9...}, goog:chromeOptions: {debuggerAddress: localhost:54311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5e31a38643248399addd79a66586ade8
+	at testCases.TestContactsPages.setUp(TestContactsPages.java:23)
+
+setUp(testCases.TestCreateNewContact)  Time elapsed: 2.29 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: element has zero size
+  (Session info: chrome=87.0.4280.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'abcs-MBP', ip: 'fe80:0:0:0:876:28d0:5ce6:d02%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/5w/mkcmv9wd2n9...}, goog:chromeOptions: {debuggerAddress: localhost:54418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0aba949513573e55c368204cc9c6475f
+	at testCases.TestCreateNewContact.setUp(TestCreateNewContact.java:24)
+

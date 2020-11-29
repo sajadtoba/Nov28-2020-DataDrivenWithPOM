@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TestContactsPages">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="testClickNewTab"/>
+          <include name="testValidateContactTabToo"/>
+          <include name="testValidateContactTab"/>
+        </methods>
+      </class> <!-- testCases.TestContactsPages -->
+      <class name="testCases.TestHomePage">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testclicktheTaskLink"/>
+          <include name="testValidateUserNameonTheHomePage"/>
+          <include name="testClickContactLabel"/>
+          <include name="testClickCalanderlabelOnHomePage"/>
+          <include name="testClickDealslabelOnHomePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TestHomePage -->
+      <class name="testCases.TestCreateNewContact">
+        <methods>
+          <include name="validateCreateNew5thContact"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="validateCreateNew4thContact"/>
+          <include name="validateCreateNew3rdContact"/>
+          <include name="validateCreateNew2ndContact"/>
+        </methods>
+      </class> <!-- testCases.TestCreateNewContact -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
