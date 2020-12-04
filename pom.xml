@@ -10,8 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-<!--        <module>CareFirst</module>-->
+        <module>CareFirst</module>
         <module>AmazonDataDrivenExcel</module>
+        <module>WalGreen</module>
+        <module>MixMethods</module>
     </modules>
     <dependencyManagement>
         <dependencies>

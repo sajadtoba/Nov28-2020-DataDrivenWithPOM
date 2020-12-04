@@ -1,0 +1,7 @@
+testCases/TestSearchPage.class
+testCases/TestCreateNewAccountPage.class
+testCases/TestIndexPage.class
+testCases/DataProviderAmazon.class
+testCases/TestCreateNewAccountPageWithDataProvider.class
+testCases/PasswordPage.class
+testCases/TestSearchPageWithDataProvider.class

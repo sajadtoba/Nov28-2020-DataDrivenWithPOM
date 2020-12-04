@@ -2,11 +2,19 @@ package pageObjects;
 
 import base.TestBaseAmazon;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
+/**  //@CacheLookup // We can only use the @CacheLookup if we know that webElement never change
+ * we cannot use for each element
+ * but if we want to change this @CacheLookup that will make the script very fast
+ */
+
 public class FirstIndexPage extends TestBaseAmazon {
     @FindBy(xpath = "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/a[2]/div[1]/span[1]")
+    @CacheLookup // We can only use the @CacheLookup if we know that webElement never change
     WebElement clickSigninBtn;
     // Search Items
 

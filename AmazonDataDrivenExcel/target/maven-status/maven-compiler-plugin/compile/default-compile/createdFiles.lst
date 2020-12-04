@@ -1,0 +1,6 @@
+pageObjects/FourthHomePage.class
+pageObjects/SecondCreateNewAccountPage.class
+pageObjects/SecondSearchResultPage.class
+pageObjects/SecondLoginPage.class
+pageObjects/FirstIndexPage.class
+pageObjects/ThirdPasswordPage.class
